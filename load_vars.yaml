@@ -3,9 +3,11 @@
   gather_facts: no
 
   tasks:
-  - debug:
-    - msg: "present working directory: {{ pwd }}"
-    - msg: "playbook directory: {{ playbook_dir }}"
+  - name: where am i
+    debug:
+      msg: 
+      - "present working directory: {{ pwd }}"
+      - "playbook directory: {{ playbook_dir }}"
 
   - name: load the vars
     include_vars: vars.yaml
