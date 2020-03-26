@@ -3,8 +3,7 @@
   gather_facts: no
 
   tasks:
-  - name: where am i
-    debug:
+  - debug:
     - msg: "present working directory: {{ pwd }}"
     - msg: "playbook directory: {{ playbook_dir }}"
 
