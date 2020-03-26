@@ -6,7 +6,7 @@
   - name: where am i
     debug:
       msg: 
-      - "present working directory: {{ pwd }}"
+      - "present working directory: {{ inventory_dir }}"
       - "playbook directory: {{ playbook_dir }}"
 
   - name: load the vars
