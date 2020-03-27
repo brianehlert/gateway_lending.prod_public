@@ -1,4 +1,5 @@
 ---
+environmentName: "lending-prod"
 gateway:
   environmentName: "lending-prod"
   metadata:
