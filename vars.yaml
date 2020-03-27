@@ -1,7 +1,7 @@
 ---
-environmentName: "lending-prod"
+environmentName: "production-us-west"
 gateway:
-  environmentName: "lending-prod"
+  environmentName: "production-us-west"
   metadata:
     name: lending
     displayName: "Common Public Lending Env Gateway"
