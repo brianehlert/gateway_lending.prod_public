@@ -1,7 +1,6 @@
 ---
 environmentName: "production-us-west"
 gateway:
-  environmentName: "production-us-west"
   metadata:
     name: lending
     displayName: "Common Public Lending Env Gateway"
@@ -25,4 +24,3 @@ gateway:
       placement:
         instanceRefs:
           - ref: "/infrastructure/locations/unspecified/instances/2"
-          - ref: "/infrastructure/locations/unspecified/instances/4"
