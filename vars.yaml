@@ -20,7 +20,7 @@ gateway:
           ref: "/services/environments/lending-prod/certs/star.acmefinancial.net"
         protocols:
           - "TLSv1.3"
-          - "TLSv1.0"
+          - "TLSv1.1"
       placement:
         instanceRefs:
           - ref: "/infrastructure/locations/unspecified/instances/2"
