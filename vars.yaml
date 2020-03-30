@@ -17,7 +17,7 @@ gateway:
         "https://ratecalculator.acmefinancial.net": {}
       tls:
         certRef:
-          ref: "/services/environments/production-us-west/certs/star.acmefinancial.net"
+          ref: "/services/environments/{{ environmentName }}/certs/star.acmefinancial.net"
         protocols:
           - "TLSv1.3"
           - "TLSv1.1"
